@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+
+<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=cinzeldecorative'>
+
+<style>
+ul{
+   list-style-type:none; margin:0; padding:0; overflow:hidden; background-color:rgba(135, 206, 250, 0);
+  }
+li a{ float:right; }
+li a{
+  display:block;
+  color:white;
+  text-align:center;
+  padding:16px;
+  text-decoration:none;
+  }
+li a:hover{
+   background-color:#111111;
+ }
+
+body{
+ background-color: white;
+ animation-name: example;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+ 0%   {background-color: white;}
+ 25%  {background-color: blue;}
+ 50%  {background-color: green;}
+ 75%  {background-color: red;}
+ 100% {background-color: yellow;}
+}
+
+img {
+  -webkit-filter: blur(2.5px);
+  filter: blur(2.5px);
+}
+* {
+ box-sizing: border-box;
+}
+
+body{
+ font-family:Arial;
+ font-size:20px;
+}
+
+.container {
+ position:relative;
+ max-width: 800px;
+ margin:0 auto;
+}
+
+
+
+ .content{
+ position: absolute;
+ bottom: 100px;
+ right: 200px;
+ background: rgb(0, 0, 0);
+ background: rgba(0, 0, 0, 0.5);
+ color:#f1f1f1;
+ width:1000%
+ padding-left:100px;
+ padding-right: 100px;
+}
+</style>
+</head>
+<body>
+<ul>
+ <li id="1"><a href="contact.html">Contact</a></li>
+ <li id="2"><a href="achievements.html">Achievements</a></li>
+ <li id="3"><a href="aboutme.html">About</a></li>
+ <li id="4"><a href="index.html">Home</a></li>
+ <li style="color:black; font-size:250%; text-align:left; font-family:cinzeldecorative;">VB</li>
+</ul>
+
+<h2 style="font-family:cinzeldecorative; font-size:40px;">MY ACHIEVEMENTS</h2>
+
+<div class="container">
+ <img src="picture3.jpeg" alt="IIT KHARAGPUR" width="700" height="450">
+ <div class="content">
+  <p>JEE ADVANCED<br>
+     I feel very happy to get into IIT. The place here is so friendly and encouraging.</p>
+ </div>
+</div>
+
+<div class="container">
+ <img src="p3.jpeg" alt="MY DRAWING" width="700" height="400">
+ <div class="content">
+  <p>Compitetive Exams<br>
+       I got medals in many science and maths olympiad exams.</p>
+ </div>
+</div>
+
+<div class="container">
+ <img src="myart.jpg" alt="MY DRAWING" width="700" height="400">
+ <div class="content">
+  <p>Drawing Competitions<br>
+    </p>
+ </div>
+</div>
+
+<div class="container">
+ <img src="picture2.jpeg" alt="BHAGAVATH GITA" width="700" height="600">
+ <div class="content">
+  <p>BHAGAVATH GITA.<br>
+        I participated in many of the Bhagavath Gita telling competitions and the best achievement 
+among all of them is that I got district 2nd.
+     </p>
+ </div>
+</div>
+
+
+</body>
+</html>
